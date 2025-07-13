@@ -14,6 +14,7 @@ def get_db_url():
             f'{os.getenv("DB_PORT")}/'
             f'{os.getenv("DB_NAME")}')
 
+
 def get_engine():
     db_url = get_db_url()
     engine = create_async_engine(url=db_url)

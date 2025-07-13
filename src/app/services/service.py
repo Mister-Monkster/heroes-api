@@ -19,6 +19,7 @@ class Service:
                 if hero["name"].lower() == name.lower():
                     hero_schema = HeroSchema.model_validate(hero)
                     return hero_schema
+            return heroes[0]
         else:
             return None
 
