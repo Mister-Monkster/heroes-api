@@ -4,7 +4,7 @@
 ## Запуск тестов
 Перейти в корневой каталог проекта и выполнить команду
 ```bash
-pytest
+  pytest
 ```
 
 ## Запуск проекта
@@ -18,12 +18,15 @@ DB_NAME = "your_db_name"
 API_ACCESS = "Your api access"
 ```
 * В корневом каталоге проекта выполнить команды
+  
 ```bash
-docker-compose build --no-cache
+  docker-compose build --no-cache
 ```
 
 ```bash
-docker-compose up -d
+  docker-compose up -d
 ```
+
 * После запуска api будет доступно по адресу `http://127.0.0.1:8000`
+
 
